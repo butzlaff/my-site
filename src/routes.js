@@ -12,9 +12,9 @@ import RegisterScreen from "./screens/register";
 const Rotas = () => (
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<PlanetsScreen />} />
+      <Route path='/planets' element={<PlanetsScreen />} />
       <Route path='/planet/:id' element={<PlanetScreen />} />
-      <Route path='/login' element={<LoginScreen />} />
+      <Route path='/' element={<LoginScreen />} />
       <Route path="/register" element={<RegisterScreen/>} />
     </Routes>
   </BrowserRouter>
