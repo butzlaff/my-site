@@ -4,7 +4,7 @@ import Form from "./form";
 import Navbar from "../navbar";
 
 async function getPlanets() {
-    let response = await fetch("http://localhost:3000/api/planets.json")
+    let response = await fetch("http://ebutz.live/api/planets.json")
     let data = await response.json()
     return data;
 }

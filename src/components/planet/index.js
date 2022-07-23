@@ -7,7 +7,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 
 
 async function getPlanet(id) {
-    let response = await fetch(`http://localhost:3000/api/${id}.json`)
+    let response = await fetch(`http://ebutz.live/api/${id}.json`)
     let data = await response.json()
     return data;
 }
