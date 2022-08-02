@@ -3,6 +3,14 @@ code {
     monospace;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  border: none;
+  color: #323232;
+}
 
 
 
@@ -13237,3 +13245,15 @@ input[type="submit"]:hover{
   margin-bottom: 10px;
   size: 10px;
 }
+
+#create-planet-container {
+  background-color: #fff;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
